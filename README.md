@@ -9,8 +9,8 @@ Fine-tune the Model
 Deploy the Fine-tuned Model
 Test the Fine-tuned Model
 Cleanup
-Setup
-# Install Required Libraries
+# Setup
+Install Required Libraries
 I ensured that the environment had the latest versions of the SageMaker and datasets libraries.
 Authenticate AWS Services
 Authenticated the session to access AWS services using the execution role associated with your SageMaker notebook instance.
@@ -26,18 +26,7 @@ Testing the fine-tuned model involves sending domain-specific queries to the end
 
 # Define Response Function
 Define a function to parse and print the model’s responses clearly.
-def print_response(payload, response):
-    print(payload["inputs"])
-    print(f"> {response}")
-    print("\n==================================\n")
-# Send a Query to the Model
-Invoke the fine-tuned model with a financial domain query to evaluate its performance.
-# Cleanup
-To avoid unnecessary costs, delete the model deployment after completing the evaluation.
 
-print(aws_role)
-print(aws_region)
-print(sess)
 
 # Select Dataset
 For fine-tuning, choose a dataset that is specific to the financial domain. Ensure that your dataset is stored in an S3 bucket. Here’s an example path for a financial dataset.
