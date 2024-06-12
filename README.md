@@ -3,24 +3,27 @@ Fine-tuning and Deploying Meta Llama 2 7B Model for Finance with Amazon SageMake
 # Introduction
 In the financial sector, leveraging the power of large language models (LLMs) like Meta Llama 2 7B can significantly enhance tasks such as market analysis, investment predictions, and risk management. These models, initially trained on extensive datasets, require fine-tuning on domain-specific data to optimize their performance for specialized tasks. This project documents the journey of fine-tuning Meta Llama 2 7B on a financial dataset, deploying it using Amazon SageMaker, and evaluating its text generation capabilities.
 # Table of Contents
-Setup
-Select Dataset
-Fine-tune the Model
-Deploy the Fine-tuned Model
-Test the Fine-tuned Model
-Cleanup
+Setup.
+
+Select Dataset.
+
+Fine-tune the Model.
+
+Deploy the Fine-tuned Model.
+
+Test the Fine-tuned Model.
+
+
 # Setup
 Installed Required Libraries
 I ensured that the environment had the latest versions of the SageMaker and datasets libraries.
-Authenticated AWS Services
-Authenticated the session to access AWS services using the execution role associated with your SageMaker notebook instance.
+Authenticated AWS Services,
+Authenticated the session to access AWS services using the execution role associated with the SageMaker notebook instance.
 imported sagemaker, boto3, json
 
 Tested the Fine-tuned Model
 Testing the fine-tuned model involves sending domain-specific queries to the endpoint and evaluating its responses.
 
-# Defined the Response Function
-Defined a function to parse and print the model’s responses clearly.
 
 
 # Select Dataset
@@ -32,7 +35,7 @@ Fine-tuning involves training the model on the financial dataset to tailor its k
 
 Set Model and Estimator Parameters
 defined the model ID and version. Then, created an estimator with the required environment settings and hyperparameters.
-# Specify the Dataset Path
+Specify the Dataset Path
 Fill in the code below with the S3 path to the financial training dataset.
 
 # Deploy the Fine-tuned Model
