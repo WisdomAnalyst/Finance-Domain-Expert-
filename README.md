@@ -49,5 +49,5 @@ Define a function to parse and print the model’s responses clearly.
 
 
 # Conclusion
-In this project, we embarked on the journey of fine-tuning Meta Llama 2 7B to enhance its performance in the financial domain. From setting up the environment to selecting a dataset, fine-tuning the model, deploying it, and finally evaluating its performance, each step was meticulously detailed to ensure a comprehensive understanding. This process not only enhances the model’s capabilities in financial tasks but also showcases the power of transfer learning in adapting large language models for specialized applications.
+This project embarked on the journey of fine-tuning Meta Llama 2 7B to enhance its performance in the financial domain. From setting up the environment to selecting a dataset, fine-tuning the model, deploying it, and finally evaluating its performance, each step was meticulously detailed to ensure a comprehensive understanding. This process not only enhances the model’s capabilities in financial tasks but also showcases the power of transfer learning in adapting large language models for specialized applications.
 
