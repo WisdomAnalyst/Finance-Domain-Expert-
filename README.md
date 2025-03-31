@@ -1,5 +1,6 @@
 # Finance-Domain-Expert-
 Fine-tuning and Deploying Meta Llama 2 7B Model for Finance with Amazon SageMaker
+# Generative AI capstone Project
 # Introduction
 In the financial sector, leveraging the power of large language models (LLMs) like Meta Llama 2 7B can significantly enhance tasks such as market analysis, investment predictions, and risk management. These models, initially trained on extensive datasets, require fine-tuning on domain-specific data to optimize their performance for specialized tasks. This project documents the journey of fine-tuning Meta Llama 2 7B on a financial dataset, deploying it using Amazon SageMaker, and evaluating its text generation capabilities.
 # Table of Contents
